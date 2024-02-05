@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] Search function feature allows users to quickly and efficiently find games by their names, ensuring a seamless browsing experience.
+* [X] Search function feature allows users to quickly and efficiently find games by their names, ensuring a seamless browsing experience.
 
 ## Video Walkthrough
 
@@ -25,18 +25,16 @@ Here's a walkthrough of implemented features:
 
 <img src="assets/GamePledgePlayground.gif" title='Video Walkthrough' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
 [ScreenToGif](https://www.screentogif.com/) for Windows
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+For some reason I had difficulties displaying the 'Total Number of Games' and overall keeping track of all the variables.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Oluwanifemi Ogunmesa]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
