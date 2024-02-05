@@ -21,6 +21,12 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center; /* Items are centered vertically in container */
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -73,3 +79,29 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+/* Style for all buttons */
+#unfunded-btn, #funded-btn, #all-btn {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for all buttons */
+#unfunded-btn:hover, #funded-btn:hover, #all-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Active (click) effect for all buttons */
+#unfunded-btn:active, #funded-btn:active, #all-btn:active {
+    background-color: #004080; /* Even darker shade for active/click */
+    transform: scale(0.98); /* Slightly scale down */
+}
+
